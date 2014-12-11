@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.01" errors="0" skipped="0" tests="1" name="foo.AppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin"/>
+    <property name="java.vm.version" value="17.1-b03"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\1_myprojects\app-core"/>
+    <property name="java.runtime.version" value="1.6.0_22-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="G:\1_myprojects\app-core"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="G:\1_myprojects\app-core\target\surefire\surefirebooter53784699552414231.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\maogh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle11g\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Java\jdk1.6.0_22\bin;C:\java_relative\apache-maven-2.2.1\bin;E:\software\database\mongodb-win32-i386-2.0.3\\bin;D:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\"/>
+    <property name="surefire.test.class.path" value="G:\1_myprojects\app-core\target\test-classes;G:\1_myprojects\app-core\target\classes;D:\maoghRepository\org\springframework\spring-core\3.1.0.RELEASE\spring-core-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;D:\maoghRepository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\maoghRepository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;D:\maoghRepository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maoghRepository\org\springframework\spring-beans\3.1.0.RELEASE\spring-beans-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-aop\3.1.0.RELEASE\spring-aop-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-context\3.1.0.RELEASE\spring-context-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-expression\3.1.0.RELEASE\spring-expression-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-orm\3.1.0.RELEASE\spring-orm-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-jdbc\3.1.0.RELEASE\spring-jdbc-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-tx\3.1.0.RELEASE\spring-tx-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;D:\maoghRepository\org\hibernate\hibernate-core\3.5.6-Final\hibernate-core-3.5.6-Final.jar;D:\maoghRepository\antlr\antlr\2.7.6\antlr-2.7.6.jar;D:\maoghRepository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;D:\maoghRepository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maoghRepository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maoghRepository\javax\transaction\jta\1.1\jta-1.1.jar;D:\maoghRepository\org\slf4j\slf4j-api\1.5.8\slf4j-api-1.5.8.jar;D:\maoghRepository\org\hibernate\hibernate-annotations\3.5.6-Final\hibernate-annotations-3.5.6-Final.jar;D:\maoghRepository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;D:\maoghRepository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;D:\maoghRepository\aspectj\aspectjweaver\1.5.3\aspectjweaver-1.5.3.jar;D:\maoghRepository\cglib\cglib\2.2.2\cglib-2.2.2.jar;D:\maoghRepository\asm\asm\3.3.1\asm-3.3.1.jar;D:\maoghRepository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;D:\maoghRepository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maoghRepository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;D:\maoghRepository\mysql\mysql-connector-java\5.1.9\mysql-connector-java-5.1.9.jar;D:\maoghRepository\org\slf4j\slf4j-nop\1.5.8\slf4j-nop-1.5.8.jar;D:\maoghRepository\org\apache\shiro\shiro-core\1.2.0\shiro-core-1.2.0.jar;D:\maoghRepository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\maoghRepository\org\apache\shiro\shiro-spring\1.2.0\shiro-spring-1.2.0.jar;D:\maoghRepository\org\apache\shiro\shiro-web\1.2.0\shiro-web-1.2.0.jar;D:\maoghRepository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\maogh"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="maogh"/>
+    <property name="java.class.path" value="G:\1_myprojects\app-core\target\test-classes;G:\1_myprojects\app-core\target\classes;D:\maoghRepository\org\springframework\spring-core\3.1.0.RELEASE\spring-core-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;D:\maoghRepository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\maoghRepository\org\springframework\spring-web\3.1.0.RELEASE\spring-web-3.1.0.RELEASE.jar;D:\maoghRepository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\maoghRepository\org\springframework\spring-beans\3.1.0.RELEASE\spring-beans-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-aop\3.1.0.RELEASE\spring-aop-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-context\3.1.0.RELEASE\spring-context-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-expression\3.1.0.RELEASE\spring-expression-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-orm\3.1.0.RELEASE\spring-orm-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-jdbc\3.1.0.RELEASE\spring-jdbc-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-tx\3.1.0.RELEASE\spring-tx-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-webmvc\3.1.0.RELEASE\spring-webmvc-3.1.0.RELEASE.jar;D:\maoghRepository\org\springframework\spring-context-support\3.1.0.RELEASE\spring-context-support-3.1.0.RELEASE.jar;D:\maoghRepository\org\hibernate\hibernate-core\3.5.6-Final\hibernate-core-3.5.6-Final.jar;D:\maoghRepository\antlr\antlr\2.7.6\antlr-2.7.6.jar;D:\maoghRepository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;D:\maoghRepository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\maoghRepository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\maoghRepository\javax\transaction\jta\1.1\jta-1.1.jar;D:\maoghRepository\org\slf4j\slf4j-api\1.5.8\slf4j-api-1.5.8.jar;D:\maoghRepository\org\hibernate\hibernate-annotations\3.5.6-Final\hibernate-annotations-3.5.6-Final.jar;D:\maoghRepository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;D:\maoghRepository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;D:\maoghRepository\aspectj\aspectjweaver\1.5.3\aspectjweaver-1.5.3.jar;D:\maoghRepository\cglib\cglib\2.2.2\cglib-2.2.2.jar;D:\maoghRepository\asm\asm\3.3.1\asm-3.3.1.jar;D:\maoghRepository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;D:\maoghRepository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\maoghRepository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;D:\maoghRepository\mysql\mysql-connector-java\5.1.9\mysql-connector-java-5.1.9.jar;D:\maoghRepository\org\slf4j\slf4j-nop\1.5.8\slf4j-nop-1.5.8.jar;D:\maoghRepository\org\apache\shiro\shiro-core\1.2.0\shiro-core-1.2.0.jar;D:\maoghRepository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\maoghRepository\org\apache\shiro\shiro-spring\1.2.0\shiro-spring-1.2.0.jar;D:\maoghRepository\org\apache\shiro\shiro-web\1.2.0\shiro-web-1.2.0.jar;D:\maoghRepository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_22\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_22"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_22\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_22\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_22\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="D:\maoghRepository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.001" classname="foo.AppTest" name="testApp"/>
+</testsuite>
