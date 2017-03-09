@@ -17,6 +17,7 @@ public class GenericEntity {
 	private Long id; // primary key
 	@Column(nullable = false, updatable = false)
 	private Date createTime;
+	
 	@Column(nullable = false, updatable = false)
 	private Long creater;
 	@Version
