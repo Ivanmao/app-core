@@ -1,4 +1,9 @@
 /target/
-/.settings/
-.classpath
+.settings/
+logs/
 .project
+.classpath
+# JETBRAINS IDEA
+.idea/
+uc.service.iml
+.springBeans
